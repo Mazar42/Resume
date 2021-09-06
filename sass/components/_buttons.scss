@@ -1,0 +1,26 @@
+    //show comment chevron
+
+    .dropdown-button{
+    
+        background:none;
+        border:none;
+    
+        &:hover{
+            cursor: pointer;
+        }   
+    }
+    
+    .rotate {
+        -moz-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+      }
+      
+    .icon-rotate {
+        -moz-transition-duration: 0.4s;
+        -o-transition-duration: 0.4s;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        display: inline-block;
+    }
