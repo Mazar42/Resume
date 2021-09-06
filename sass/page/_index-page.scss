@@ -40,3 +40,27 @@
         font-weight: bold;
         }
     }
+
+    @media all and (min-width : 950px){
+
+        .card{
+            margin: auto;
+            margin-bottom: 50px;
+            width: 75%;
+        }
+
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+            li{
+                max-width: 300px;
+            }
+        }
+
+        .skill{
+            border-bottom: none;
+        }
+
+    }

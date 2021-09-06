@@ -24,3 +24,10 @@
         transition-duration: 0.4s;
         display: inline-block;
     }
+
+    @media all and (min-width : 950px){
+
+        .dropdown-button{
+            display: none;
+        }
+    }

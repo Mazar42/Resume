@@ -6,3 +6,10 @@ header{
     color: white;
     font-family: 'Source Code Pro', monospace;
 }
+
+@media all and (min-width : 950px){
+
+    header{
+        margin-bottom: 60px;
+    }
+}

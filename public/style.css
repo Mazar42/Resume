@@ -95,6 +95,11 @@ a {
   display: inline-block;
 }
 
+@media all and (min-width: 950px) {
+  .dropdown-button {
+    display: none;
+  }
+}
 /*Layout imports*/
 header {
   height: 100px;
@@ -105,6 +110,11 @@ header {
   font-family: "Source Code Pro", monospace;
 }
 
+@media all and (min-width: 950px) {
+  header {
+    margin-bottom: 60px;
+  }
+}
 footer {
   border-top: solid #484848;
   height: 100px;
@@ -152,6 +162,27 @@ footer .footer-links {
 .dropdown i {
   color: #d9edf7;
   font-weight: bold;
+}
+
+@media all and (min-width: 950px) {
+  .card {
+    margin: auto;
+    margin-bottom: 50px;
+    width: 75%;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  ul li {
+    max-width: 300px;
+  }
+
+  .skill {
+    border-bottom: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
